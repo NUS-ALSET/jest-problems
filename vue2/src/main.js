@@ -1,6 +1,11 @@
 import Vue from "vue";
 
+var template = `
+	<h3>{{title}}</h3>
+`;
+
 var app = new Vue({
+  template: template,
   data: {
     todos: [],
     title: "Vuejs Test sample"
