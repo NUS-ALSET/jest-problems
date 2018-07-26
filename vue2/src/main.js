@@ -21,7 +21,7 @@ var app = new Vue({
 
   methods: {
     add: function(a, b) {
-      return a + b;
+      return a;
     }
   }
 });
